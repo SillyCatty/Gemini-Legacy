@@ -1,0 +1,19 @@
+// Top-level build file. AGP 4.2.2 + Gradle 6.7.1 (JDK 8-11) is the newest combo
+// that comfortably builds minSdk 14 against Support Library 28.0.0.
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.2.2'
+    }
+}
+
+allprojects {
+    repositories {
+        google()   // hosts com.android.support:* artifacts
+        jcenter()  // read-only mirror, still serves okhttp 3.12.x
+        mavenCentral()
+    }
+}

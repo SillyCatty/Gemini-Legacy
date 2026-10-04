@@ -1,0 +1,20 @@
+# Build output and tooling
+.gradle/
+build/
+app/build/
+.idea/
+*.iml
+captures/
+
+# Machine-specific paths
+local.properties
+
+# APKs live in GitHub Releases, not in the source tree
+*.apk
+
+# Local copy of the logo source image
+branding/
+
+# Never commit signing keys
+*.keystore
+*.jks

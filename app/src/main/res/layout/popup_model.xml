@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <RadioGroup
+        android:id="@+id/rgModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbPro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pro"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/rbFlash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Flash"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/rbLite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Flash Lite"
+            android:textColor="#FFFFFF" />
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#555555" />
+
+    <Switch
+        android:id="@+id/swExtended"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Extended thinking"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
